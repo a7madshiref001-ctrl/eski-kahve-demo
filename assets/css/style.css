@@ -409,4 +409,4 @@ button { font: inherit; color: inherit; background: none; border: 0; padding: 0;
 .deal:not(.deal--big) img { margin: 6px; width: calc(100% - 12px); height: calc(100% - 12px); }
 @media (min-width: 600px) { .deal:not(.deal--big) img { margin: 6px 6px 0; height: auto; } }
 .hero__seal { width: 78px; height: 78px; color: var(--ac); margin-bottom: 14px; }
-@media (min-width: 1000px) { .hero__seal { width: 96px; height: 96px; } }
+@media (min-width: 1000px) { .hero__seal { width: 96px; height: 96px; } .hero__img::after { background: linear-gradient(to left, var(--bg-a94) 0%, var(--bg-a82) 34%, var(--bg-a40) 44%, transparent 52%); } }
